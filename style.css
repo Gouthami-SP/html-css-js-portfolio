@@ -354,3 +354,37 @@ footer ul li a{
     }
 
 }
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+.counter-container h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.counter-container p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.counter-container .btn {
+    padding: 0.8rem 1.5rem;
+    border-radius: 3rem;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.counter-container .btn:hover {
+    background-color: white;
+    color: black;
+}
